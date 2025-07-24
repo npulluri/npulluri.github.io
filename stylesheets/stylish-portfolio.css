@@ -1,0 +1,276 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4.236em;
+  font-weight: 500;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+  border-radius: 0;
+  color: #fff;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+  color: #fff;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+  border-radius: 0;
+  color: #333;
+  background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+  color: #333;
+  background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+  max-width: 100px;
+}
+
+#menu-toggle {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 9px 18px 9px 18px;
+}
+
+#menu-close {
+  padding: 9px 18px 9px 18px;
+}
+
+.toggle {
+  margin: 5px 5px 0 0;
+  padding: 9px 18px 9px 18px;
+}
+
+/* Header */
+
+.header {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* About */
+
+.about {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../images/about.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: #fff;
+  padding: 18% 22%;
+}
+
+/* Services */
+
+.services {
+  padding: 50px 0;
+}
+
+.service-item {
+  margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+  display: table;
+  width: 100%;
+  height: 400px;
+  color: #fff;
+  background: url(../images/callout.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding: 50px 0;
+  height: 75%;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.img-portfolio {
+  margin: 0 auto;
+}
+
+.img-portfolio:hover {
+  opacity: 0.9;
+}
+
+/* Call to Action */
+
+.call-to-action {
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+/* Map */
+
+.map {
+  height: 500px;
+}
+
+@media(max-width:768px) {
+  .map {
+    height: 75%;
+  }
+}
+
+/* Footer */
+
+footer {
+  padding: 100px 0;
+}
+
+#about-separator-line{
+  border-top: 1px solid #fff;
+}
+
+#contact-link:hover {
+  color: rgba(12, 227, 172, 0.4);
+}
+
+.resume {
+  width: 100%;
+  height: 100%;
+}
+
+#fact-button {
+  margin-bottom: -15%;
+}
+
+#portfolio-link {
+  color: #00bc8c;
+}
+
+#portfolio-link:hover {
+  color: rgba(6, 117, 89, 0.5);
+}
+
+.portfolio-img-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.portfolio-img-container:hover a span {
+    opacity: 1;
+    top: 0;
+    z-index: 2;
+}
+
+.portfolio-img-container a {
+    display: block;
+    position: absolute;
+    opacity: 1;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 37%;
+    text-align: center;
+    color: inherit;
+}
+
+#project-title {
+  font-size: 1.4em;
+}
+
+#user-gravatar {
+  margin-top: -24px;
+  margin-right: 0px;
+  position: relative;
+  top: 14px;
+  height: 40px;
+  width: 40px;
+  box-shadow: 0 0 0 1px rgba(20,28,34,0.2);
+  border: 2px solid white;
+  border-radius: 22px;
+}
+
+#user-gravatar:hover,
+#user-gravatar:focus {
+  cursor: pointer;
+}
+
+#page-content-wrapper {
+    padding: 20px;
+    position: relative;
+}
+
+.spacer {
+  position: relative;
+  display: inline;
+  padding: 0 7px;
+}
+
+#red_hat{
+  color: #CC0000;
+  font-weight: 500;
+}
+
+#tiy_link {
+  color: #222222;
+  font-weight: 500;
+}
