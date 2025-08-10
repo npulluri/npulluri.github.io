@@ -1,14 +1,7 @@
 var randomFact = {
   "facts": [
-    {"text":"I've fed wild Wallabies in Australia"},
-    {"text":"I've surfed in South Africa"},
-    {"text":"I've cooked dinner for a Senator"},
     {"text":"I like chocolate chip cookies"},
-    {"text":"I'm a pretty decent point guard"},
-    {"text":"Go Wolfpack!!!"},
-    {"text":"I write and perform my own music"},
-    {"text":"I like math"},
-    {"text":"You might fly on a jet with an engine I helped develop"}
+    {"text":"I like math"}
   ]
 };
 
